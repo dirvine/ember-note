@@ -1,11 +1,17 @@
 <div class="container">
   <div class="row">
-    <div class="col-md-2">
-      Welcome to WWWW (Who What Why Where)
+    {{#unless accessed }}<div class="col-md-2">
+      <h2>Welcome to WWWWW </h2>(Who What Why Where When)
+      <hr>
     </div>
-    <div class="col-md-10">
-      {{#link-to 'register'}}register{{/link-to}}
+    <div class="col-md-5">
+      {{#link-to 'register'}}Register{{/link-to}}
     </div>
+    <div class="col-md-5">
+      {{#link-to 'apps.login'}}Login{{/link-to}}
+    </div>
+  {{/unless}}
+
   </div>
   <div class="row">
     <div>

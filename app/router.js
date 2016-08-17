@@ -26,10 +26,16 @@ Router.map(function() {
     this.route('private');
     this.route('website');
     this.route('blog');
+    this.route('disk');
   });
 
   this.route('development', function() {
     this.route('howto');
+  });
+
+  this.route('apps', function() {
+    this.route('login');
+    this.route('register');
   });
 });
 
