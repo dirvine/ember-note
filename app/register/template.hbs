@@ -1,0 +1,17 @@
+<div class="container">
+  <div class="row">
+    {{#bs-form  model=this action="submit"}}
+    <div class="col-xs-3 ">
+
+      {{bs-form-element property="name" submitOnEnter="true" class="valign-content" controlType="text" value=name  }}
+    </div>
+    <div class="col-xs-3 ">
+      {{bs-button class="fa-star" type="submit" action='addNew' class="fa fa-github" text=" Add"}}
+    </div>
+    {{/bs-form}}
+    <div class="col-xs-6">
+      {{message}}
+    </div>
+  </div>
+</div>
+

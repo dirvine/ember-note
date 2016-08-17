@@ -1,8 +1,13 @@
 {
   "name": "ember-note",
   "dependencies": {
-    "ember": "~2.7.0",
+    "ember": "alpha",
     "ember-cli-shims": "0.1.1",
-    "ember-qunit-notifications": "0.1.0"
+    "ember-qunit-notifications": "0.1.0",
+    "bootstrap": "~3.3.5",
+    "font-awesome": "^4.6.3"
+  },
+  "resolutions": {
+    "ember": "^2.7.1"
   }
 }
